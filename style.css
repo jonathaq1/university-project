@@ -527,7 +527,10 @@ span{
     .container-img img:nth-child(2){
         width: clamp(50px,30%,300px);
     }
-
+    .container-motivation{
+        max-width: 1200px;
+        border-radius: 30px;
+    }
     .section-container{
         max-width: 1200px;
         border-radius: 30px;
