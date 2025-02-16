@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>prueba-ejemplo</title>
+</head>
+<body>
+    <header>
+        <label class="menu-container" for="menu">
+            <input type="checkbox" name="" id="menu">
+            <i class='bx bx-menu'></i>
+            <div class="header--container">
+            <a class="link" href="#main">Home</a>
+            <a class="link" href="#form">Inscribete aqui</a>
+        </div>
+    </label>
+    </header>
+
+    <main id="main">
+        <div class="main-container">
+            <h1 class="main-title">Forma parte del torneo<br> mas grande de<br> The Strongest Battlegrounds
+            </h1>
+
+
+            <video class="video-background" autoplay loop muted>
+                <source src="/Assets/video.mp4" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+            </video>
+            <a class="next-content" href="#description"><i class='bx bx-down-arrow-alt'></i></a>
+        </div>
+        
+        
+    </main>
+    <section id="description">
+        <div class="description--section">
+            <p class="text__description">Compite para demostrar quien es el mejor jugador de The Strongest Battlegrounds</p>
+            <div class="container-img">
+                <img src="/Assets/Captura de pantalla 2025-02-15 100915.png" alt="Nah i'd Win">
+                <img src="/Assets/Garou_in_the_game_icon.webp" alt="Garou">
+            </div>
+        </div>
+    </section>
+
+    <section id="section">
+        <div class="section-container">
+            
+                <p>Siguenos en nuestras Redes para estar al tanto de las nuevas noticas</p>
+            <div class="section-agroup">
+                <a class="redes__sociales1" href="https://www.instagram.com/" target="_blank"><img class="insta--img" src="/Assets/instagram-1-svgrepo-com.svg" alt="" srcset=""></a>
+
+                <a class="redes__sociales" href="https://web.facebook.com/?_rdc=1&_rdr#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" fill="url(#a)" ><defs><linearGradient x1="50%" x2="50%" y1="97.078%" y2="0%" id="a"><stop offset="0%" stop-color="#0062E0"/><stop offset="100%" stop-color="#19AFFF"/></linearGradient></defs><path d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z"/><path fill="#FFF" d="m25 23 .8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"/></svg></a>
+
+                <a class="redes__sociales" href="https://x.com/?lang=es" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"  fill="none" viewBox="0 0 1200 1227"><path fill="#000" d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"/></svg></a>
+            </div>
+            <div class="click-to-follow">
+                <img class="arrow" src="/Assets/flecha-curva-hacia-abajo.png" alt="flecha-curva-hacia-abajo" >
+                <p>Haz click!</p>
+                
+            </div>
+        </div>
+    </section>
+    <section>
+    <form id="form" action="procesar/" method="post">
+        <p>Inscribete aqui!!</p>
+        
+        <input type="text" name="usuario" id="Nickdelform" placeholder="Tu nombre completo" required>
+
+        <input type="email" name="email" id="emailform" placeholder="ejemplo@email.com" required>
+
+        <span>He leido todas las politicas<input type="checkbox" name="chequeado" id="checkpoli" required></span>
+
+        <input type="submit" value="enviar">
+    </form>
+</section>
+    <footer></footer>
+
+    
+
+        
+    
+</body>
+</html>
+
